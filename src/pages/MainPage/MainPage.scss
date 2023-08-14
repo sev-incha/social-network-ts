@@ -68,7 +68,6 @@
     border-radius: 10px;
     padding: 10px 15px;
     list-style: none;
-    // white-space: nowrap;
     transition: 200ms;
 
     .icon {
@@ -201,7 +200,6 @@
     width: 60px;
     border-radius: 50%;
     object-fit: cover;
-    // height: calc(1.9vw + 23px); //? 30 - 375 | 60 - 1920
   }
 
   .user__description {

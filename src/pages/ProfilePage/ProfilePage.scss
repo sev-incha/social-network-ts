@@ -100,7 +100,6 @@
     border-radius: 10px;
     padding: 10px 15px;
     list-style: none;
-    // white-space: nowrap;
     transition: 200ms;
 
     .icon {
@@ -309,7 +308,6 @@
     gap: 10px;
 
     padding: 20px;
-    // padding-left: calc(3.9vw + 165px); //? 180 - 375 | 240 - 1920
 
     img {
       width: 130px;
@@ -413,7 +411,6 @@
     width: 60px;
     border-radius: 50%;
     object-fit: cover;
-    // height: calc(1.9vw + 23px); //? 30 - 375 | 60 - 1920
   }
 
   .user__description {
