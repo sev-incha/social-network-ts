@@ -16,12 +16,6 @@ span {
   margin: 0;
 }
 
-.main__text {
-  span {
-    color: var(--gray);
-  }
-}
-
 .secondary__text {
   font-size: calc(0.4vw + 8px); //? 14 - 1440 | 16 - 1920
   font-weight: 300;
