@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProfilePage.scss";
-import { Container } from "../../components/UI/Header/Container/Container";
+import { Container } from "../../components/UI/Container/Container";
 import { ProfileHeader } from "../../components/ProfileHeader/ProfileHeader";
 
 export const ProfilePage = () => {
@@ -237,8 +237,7 @@ export const ProfilePage = () => {
             </div>
           </div>
         </aside>
-        <ProfileHeader/>
-  
+        <ProfileHeader />
         <main className="Main">
           <div className="WhatsNew">
             <img src="./img/users/arina-volkova.jpeg" alt="User" />

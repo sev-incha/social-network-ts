@@ -1,10 +1,9 @@
-import React from "react"
-import "./RegistetionInfo.scss"
-import { StyleRegistration } from "./RegistrationInfo.style"
+import React from "react";
+import "./RegistrationInfo.scss"
 
-export const RegistetionInfo = () => {
+export const RegistrationInfo = () => {
   return (
-    <StyleRegistration>
+    <div className="registration">
       <span>
         У вас нет аккаунта? <a href="#">Зарегистрироваться</a>
       </span>
@@ -22,10 +21,7 @@ export const RegistetionInfo = () => {
         <a className="reg__link mail-ru-link" href="#">
           <img src="./img/icons/mail-ru.svg" alt="Mail.ru" />
         </a>
-      </div>
-    </StyleRegistration>
+    </div>
+  </div>
   )
 }
-
-
-
